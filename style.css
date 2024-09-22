@@ -114,6 +114,9 @@ fieldset {
     color: white;
     font-size: 14px;
 }
+.citation a:active {
+    color: red;
+}
 
 .citation {
     position:absolute;
@@ -131,9 +134,6 @@ input {
     padding: 10px;
     width: 100%;
     font-size: 20px;
-
-    -webkit-appearance: none;
-
     outline: none;
 }
 
@@ -159,8 +159,20 @@ input:invalid {
     padding: 10px 40px;
     background-color: #042842;
     margin-top: 30px;
+    cursor: pointer;
 }
 
+.create-account:hover {
+    background-color: #6896b8;
+}
+.create-account:active {
+    background-color: #6896b8;
+    box-shadow: 2px 2px 6px #666;
+    transform: translateY(2px);
+}
+input:hover{
+    border: #babcbe 2px solid;
+}
 input:focus {
     border: 2px solid rgb(0, 119, 255);
     box-shadow: 0px 4px 8px rgb(222, 223, 224);
