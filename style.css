@@ -67,12 +67,6 @@ form {
    
 }
 
-fieldset{
-    margin: 0;
-    padding-left: 50px;
-    padding-right: 120px;
-}
-
 .description, .log-in, .create-account {
     margin-left: 50px;
     margin-right: 120px;
@@ -99,6 +93,9 @@ fieldset{
 
 
 fieldset {
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 120px;
     background-color: white;
     box-shadow: 0px 4px 8px rgb(222, 223, 224);
     display: flex;
